@@ -1,0 +1,27 @@
+{
+  "name": "simple-clipper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Clipboard pege's Title and URL.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "EventName": {
+      "suggested_key": {
+        "default": "Alt+C"
+      },
+      "description": "Trigger for clipboard page's title and URL."
+    }
+  },
+  "page_action": {
+    "default_icon": "assets/img/icon/19.png",
+    "default_title": "Sample"
+  },
+  "icons": {
+    "128": "assets/img/icon/128.png"
+  }
+}
