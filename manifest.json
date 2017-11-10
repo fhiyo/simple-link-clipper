@@ -1,25 +1,26 @@
 {
-  "name": "simple-clipper",
+  "name": "Simple Link Clipper",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Clipboard pege's Title and URL.",
+  "description": "Clip url in the selected format.",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["lib/background.js"]
   },
   "commands": {
     "EventName": {
       "suggested_key": {
         "default": "Alt+C"
       },
-      "description": "Trigger for clipboard page's title and URL."
+      "description": "Copy to clipboard trigger."
     }
   },
   "page_action": {
     "default_icon": "assets/img/icon/19.png",
-    "default_title": "Sample"
+    "default_popup": "popup.html"
   },
   "icons": {
     "128": "assets/img/icon/128.png"
