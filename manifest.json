@@ -8,7 +8,8 @@
     "storage"
   ],
   "background": {
-    "scripts": ["lib/background.js"]
+    "scripts": ["lib/background.js"],
+    "persistent": false
   },
   "commands": {
     "EventName": {
