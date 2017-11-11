@@ -11,13 +11,13 @@ git clone git@github.com:fhiyo/simple-link-clipper.git
 ```
     
 2. Open your Google Chrome, and go `chrome://extensions/`
-3. Press "Load unpacked extension…" button, and select simple-link-clipper directory.
+3. After checking "Developer mode", press "Load unpacked extension…" button, and select simple-link-clipper directory.
 
 ## Usage
 
-Press Alt + C to copy active page's link in the selected format. The format can be changed on the popup page.
+Press *Alt+C* to copy active page's link in the selected format. The format can be changed on the popup page.
 
-If you want to change the shortcut, move to [GoogleChrome's setting page](chrome://extensions/configureCommands) and set your favorite one.
+If you want to change the shortcut, move to *chrome://extensions/configureCommands* and set your favorite one.
 
 ## License
 
