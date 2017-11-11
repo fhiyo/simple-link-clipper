@@ -2,6 +2,17 @@
 
 simple-link-clipper is a Chrome extension. This enables to copy active page's link to clipboard by using keyboard shortcut.
 
+## Installation instructions
+
+1. Clone this repository.
+```sh
+cd /path/to/repo
+git clone git@github.com:fhiyo/simple-link-clipper.git
+```
+    
+2. Open your Google Chrome, and go `chrome://extensions/`
+3. Press "Load unpacked extension…" button, and select simple-link-clipper directory.
+
 ## Usage
 
 Press Alt + C to copy active page's link in the selected format. The format can be changed on the popup page.
