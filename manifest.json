@@ -1,15 +1,17 @@
 {
   "name": "Simple Link Clipper",
-  "version": "0.1.0",
-  "manifest_version": 2,
+  "version": "0.2.0",
+  "manifest_version": 3,
   "description": "Clip url in the selected format.",
   "permissions": [
+    "tabs",
     "activeTab",
-    "storage"
+    "storage",
+    "scripting",
+    "commands"
   ],
   "background": {
-    "scripts": ["lib/background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "commands": {
     "EventName": {
@@ -19,7 +21,7 @@
       "description": "Copy to clipboard trigger."
     }
   },
-  "page_action": {
+  "action": {
     "default_icon": "assets/img/icon/19.png",
     "default_popup": "popup.html"
   },

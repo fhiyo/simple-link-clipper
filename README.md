@@ -5,10 +5,11 @@ simple-link-clipper is a Chrome extension. This enables to copy active page's li
 ## Installation instructions
 
 1. Clone this repository.
-```sh
-cd /path/to/repo
-git clone git@github.com:fhiyo/simple-link-clipper.git
-```
+    
+    ```sh
+    cd /path/to/repo
+    git clone git@github.com:fhiyo/simple-link-clipper.git
+    ```
     
 2. Open your Google Chrome, and go `chrome://extensions/`
 3. After checking "Developer mode", press "Load unpacked extension…" button, and select simple-link-clipper directory.
@@ -17,7 +18,7 @@ git clone git@github.com:fhiyo/simple-link-clipper.git
 
 Press *Alt+C* to copy active page's link in the selected format. The format can be changed on the popup page.
 
-If you want to change the shortcut, move to *chrome://extensions/configureCommands* and set your favorite one.
+If you want to change the shortcut, move to **chrome://extensions/shortcuts** and set your favorite one.
 
 ## License
 
