@@ -1,7 +1,7 @@
 (() => {
-  const default_mode = 'markdown';
+  const defaultMode = 'markdown';
 
-  chrome.storage.local.set({ 'mode': default_mode });
+  chrome.storage.local.set({ 'mode': defaultMode });
 
   chrome.commands.onCommand.addListener(function(command){
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs){
