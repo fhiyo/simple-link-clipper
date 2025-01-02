@@ -7,7 +7,7 @@
     chrome.tabs.query({ active: true, currentWindow: true }, function(tabs){
       const tabId = tabs[0].id;
       chrome.scripting.executeScript(
-        { target: { tabId }, files: [ "assets/js/jquery-3.5.0.min.js" ] },
+        { target: { tabId }, files: [ "assets/js/jquery-3.7.1.min.js" ] },
         function(){
           chrome.scripting.executeScript({ target: { tabId }, files: [ "lib/clipper.js" ] });
         }
